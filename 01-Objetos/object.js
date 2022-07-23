@@ -14,17 +14,7 @@ n[0]= 5;
 n.doble = function dub(x){return x*2}
 }
 
-
 let functionObject = 'Soy una función con propiedades!'
-
-
-/* {
-   year : ()=> {return '2017'},
-   mitad : (x)=>{return x/2},
-   prototype: function helloWorld(){return 'Hello World'},
-   'Soy una función con propiedades!'
-      
-   } */
 
   function setPropsOnFunc (n){
    n.year = '2017';
